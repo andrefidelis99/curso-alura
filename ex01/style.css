@@ -1,7 +1,17 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 body {
+    
+}
+
+#banner { 
+    width: 100%;
+
+}
+
+.pricipal {
     background-color: #CCCCCC;
+    padding: 20px;
 }
 
 h1 {
@@ -18,4 +28,27 @@ p {
 
 em strong {
     color: #FF0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background-color: white;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
+}
+
+.imgbeneficios {
+    width: 50%;
 }
