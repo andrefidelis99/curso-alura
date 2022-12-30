@@ -314,6 +314,11 @@ body {
     font-size: 24px;
 }
 
+.cartao__botao--loc::before {
+    content: "\e909";
+    font-size: 24px;
+}
+
 .cartao--recentes {
     display: none;
 }
